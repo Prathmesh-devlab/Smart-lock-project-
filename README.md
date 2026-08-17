@@ -3,7 +3,7 @@
 # About Project
 While learning python through CS50P, a idea struck in my mind that using this i can make a smart lock system.
 The intersting part of this is we have seen smart locks in movies which count attempts, activate burglar alarm. but we have not seen such smart in our day today life, it may be there in some advance systems or bank, but what if we see this at someones house it attracts our attention. Same thing thought, it would be amazing to see a smart lock system on every house.
-So i started working on it, this project is made using python. I have used various features of python like if else, import, functions etc. Today this project has evolved through multiple versions. So there is flixibility depending on use and level of security want one can choose suitable version.
+So i started working on it, this project is made using python. I have used various features of python like if else, import, functions etc. Today this project has evolved through multiple versions. So there is flexibility depending on use and level of security want one can choose suitable version.
 I am not going to stop at this, more versions are going to come 
 
 # Technologies used
@@ -45,3 +45,9 @@ I am not going to stop at this, more versions are going to come
   
   
 This project is continuously evolving as I learn new concepts in python through CS50P and other resources. More exciting versions are coming soon!
+
+# Licence:
+Copyright © 2026 [Prathmesh Pasalkar]. All rights reserved.
+
+This source code is provided for viewing and educational reference only.
+No permission is granted to copy, modify, distribute, reproduce,publish, or commercially use this source code without prior written permission from the copyright holder.
