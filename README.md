@@ -3,11 +3,12 @@
 # About Project
 While learning python through CS50P, a idea struck in my mind that using this i can make a smart lock system.
 The interstinig part of this is we have seen smart locks in movies which count atempts, activate burglar alarm. but we have not seen such smart in our day today life, it may be there in some advance systems or bank, but what if we see this at someones houes it attarcts our attention. Same thing thought, it would be amazing to see a smart lock system on every house.
-So i started working on it, this project is made using python. I have used various features of pythom like if else, import, functions etc. today i have 5 versions of smart lock. So there is flixibility depending on use and level of security want one can choose suitable version.
+So i started working on it, this project is made using python. I have used various features of pythom like if else, import, functions etc. Today this project has evolved through multiple versions. So there is flixibility depending on use and level of security want one can choose suitable version.
 I am not going to stop at this, more versions are going to come 
 
 # Technologies uesd
 - Python
+- Python libraries 
 - CSV Files
 - VS Code
 
@@ -17,18 +18,23 @@ I am not going to stop at this, more versions are going to come
  - V3 - Guest mode
  - v4 -Admin member registeration
  - V5 - CSV based persistent storage
+ - V5.1 - Restructured code with OOP
+ - V5.2 - More strict checking on user's input
+ - V6 - COMING SOON
 
 # Current featues:
 - persistent storage for members
 - save all data of guest and members permanently
 - more secure
-- password is not reveal in code it is hidden inside csv file
+- members passwords are store seperately from the main python code in CSV file 
 - New member registeration
 - Admin security
 - Store huge family members
 - Check password
 - Store different passwords for each member
 - Attempt counter
+- seperate classes for specific use
+- more strict checking through regex
 
 # Future goals:
 - GUI
