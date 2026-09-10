@@ -1,0 +1,20 @@
+{% extends "syntax.html" %}
+
+{% block body %}
+<h1 style="color: aqua;">List of guest that visited the house :-</h1>
+<select name="guests" id="guests" style="position: absolute;left: 250px;">
+    <option value="name">Names</option>
+    {% for key,value in guests.items() %}
+    <option value="{{value}}">{{key}}</option>
+    {% endfor %}
+</select>
+<select name="guests" id="guests" style="position: absolute;left: 400px;">
+    <option value="mobile no.">Mobile no.</option>
+    {% for key,value in guests.items() %}
+    <option value="{{key}}">{{value}}</option>
+    {% endfor %}
+</select>
+<form action="/" method="post" style="text-align: center;">
+    <input type="submit" value="Exit">
+</form>
+{% endblock %}
