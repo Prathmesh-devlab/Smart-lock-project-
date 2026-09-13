@@ -1,0 +1,33 @@
+{% extends "syntax.html" %}
+
+{% block body_class %}
+front
+{% endblock %}
+
+{% block body %}
+
+    {% if error %}
+       <h1 style="color: red; text-align: center;">{{error}}</h1>
+    {% endif %}
+
+    {% if is_locked %}
+       <h1 style="color: red; text-align: center;">SYSTEM IS LOCKED</h1><br>
+       <p style="color: white; text-align: center;">Maximum attempts reached </p>
+    {% else %}
+       <form action="/test" method="POST" style="text-align:center; font-weight: 300; position: absolute; top: 400px; left: 575px; "  >
+       <input autofocus name="password" type="password" class="input" placeholder="Enter Password" ><br>&nbsp<br>&nbsp<br>
+       <input type="submit" class="input" value="Unlock"><br>&nbsp<br>&nbsp<br>&nbsp<br>&nbsp<br>
+       </form>
+    {% endif %}
+
+    <form action="/guest" method="post" style="text-align: left; position: absolute; top: 300px; left: 200px;">
+    <input type="image" src="static\GUEST.jpg" height="200px" width="200px">
+    </form>
+
+    </form>
+    <form action="/admin" method="post" style="text-align: right; position: absolute; top: 300px; right: 200px">
+    <input type="image" src="static\ADMIN.png" height="200px" width="200px">
+    </form>
+</body>
+{% endblock %}
+</body>

@@ -1,0 +1,20 @@
+{% extends "syntax.html" %}
+
+{% block body_class %}
+background
+{% endblock %}
+
+{% block body %}
+
+<h1 style="text-align: center; color: green; font-size: 75px;">Access granted</h1>
+    <form action="/add" method="post" style="text-align: left; position: absolute; top: 100px;">
+    <input type="image" src="static\MEMBER.jpg" height="200px" width="200px" style="position: absolute; top: 150px;">
+    </form>
+    <form action="/list" method="post" style="text-align: right;">
+    <input type="image" src="static\LIST.jpg" height="200px" width="200px">
+    </form>
+    <form action="/reset" method="post" style="text-align: center;">
+    <input type="image" src="static/RESET.png" height="200px" width="200px">
+    </form>
+</body>
+{% endblock %}

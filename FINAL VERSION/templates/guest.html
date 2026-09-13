@@ -1,0 +1,14 @@
+{% extends"syntax.html" %}
+
+{% block body_class %}
+background
+{% endblock %}
+
+{% block body %}
+<h1 style="text-align: center; color: green;font-size: 50px;">Welcome</h1>
+<form action="/guest_details" method="post" style="text-align: center;">
+    <h2 style="color: white;">Enter your name</h2><input required type="text" class="input" name="name" placeholder="only characters">
+    <h2 style="color: white;">Enter your mobile no.</h2><input autocomplete="off" required type="tel" class="input" name="mobile" pattern="[0-9]{10}" placeholder="enter valid mob no."><br>&nbsp<br>&nbsp<br>
+    <input type="submit" class="input" value="Ok">
+</form>
+{% endblock %}

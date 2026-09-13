@@ -1,0 +1,13 @@
+{% extends "syntax.html" %}
+
+{% block body_class %}
+unlock
+{% endblock %}
+
+{% block body %}
+
+     <h1 style="color:rgb(15, 198, 12); text-align:center;">Welcome {{Name}}</h1>
+     <form action="/" style="text-align: center;" method="post">
+          <input type="submit" class="input" value="Lock">
+     </form>
+{% endblock %}
