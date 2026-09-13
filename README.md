@@ -9,6 +9,8 @@ I am not going to stop at this, more versions are going to come
 # Technologies used
 - Python
 - Flask
+- SQL
+- werkzeug
 - HTML and CSS
 - Python libraries 
 - CSV Files
@@ -22,7 +24,8 @@ I am not going to stop at this, more versions are going to come
  - V5 - CSV based persistent storage
  - V5.1 - Restructured code with OOP
  - V5.2 - More strict checking on user's input
- - V6.0 - Web application of smart lock system
+ - V6.0 - Basic Web application of smart lock system
+ - V6.1 - modern web application of smart lock system
 
 # Features OF CLI versions:
 - persistent storage for members
@@ -39,13 +42,16 @@ I am not going to stop at this, more versions are going to come
 - stricter input validation using regex
 
 # Features of web based version:
-- All features of CLI except attempt counter
+- All features of CLI versions
+- Seperate database
+- hashed passwords
+- modern look
 
 # Future goals:
 - SMS system
 - burglar alarm after too many incorrect attempts
 - fingerprint sensor
-- website or an application to use smart lock through mobile
+- An application to use smart lock through mobile
   
   
 This project is continuously evolving as I learn new concepts in python through CS50P and other resources. More exciting versions are coming soon!
