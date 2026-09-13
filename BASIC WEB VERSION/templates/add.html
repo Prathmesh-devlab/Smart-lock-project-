@@ -1,0 +1,12 @@
+{% extends "syntax.html" %}
+
+{% block body %}
+
+<h1 style="color: aqua; text-align: center;">Registeration of new member :-</h1><br>&nbsp<br>&nbsp
+ <form action="/member" method="post" style="text-align: center;">
+   <h1 style="color: white;"> Enter your name</h1>><input type="text" required name="name" placeholder="enter name"><br>
+   <h1 style="color: white;">Enter new password</h1>><input type="password" required name="Password" pattern="[0-9]{4}" placeholder="enter password"><br>
+    <input type="submit" value="Register">
+ </form>
+
+{% endblock %}

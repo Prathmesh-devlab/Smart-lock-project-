@@ -1,0 +1,10 @@
+{% extends"syntax.html" %}
+
+{% block body %}
+<h1 style="text-align: center; color: green;">Welcome</h1>
+<form action="/guest_details" method="post" style="text-align: center;">
+    <h2 style="color: white;">Enter your name</h2><input required type="text" name="name" placeholder="only characters">
+    <h2 style="color: white;">Enter your mobile no.</h2><input required type="tel" name="mobile" pattern="[0-9]{10}" placeholder="enter valid mob no."><br>
+    <input type="submit" value="Ok">
+</form>
+{% endblock %}

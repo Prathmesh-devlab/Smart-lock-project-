@@ -1,0 +1,9 @@
+{% extends "syntax.html" %}
+
+{% block body %}
+<h1 style="text-align: center; color: aqua;">Enter admin code</h1>
+<form action="/check" method="post" style="text-align: center;">
+    <input type="password" required name="check" placeholder="password"><br>
+    <input type="submit" value="Enter">
+</form>
+{% endblock %}
