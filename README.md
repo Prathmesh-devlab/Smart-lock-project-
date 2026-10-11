@@ -26,6 +26,7 @@ I am not going to stop at this, more versions are going to come
  - V5.2 - More strict checking on user's input
  - V6.0 - Basic Web application of smart lock system
  - V6.1 - modern web application of smart lock system
+ - V6.2 - Activate alarm and remove/delete member
 
 # Features OF CLI versions:
 - persistent storage for members
@@ -45,13 +46,13 @@ I am not going to stop at this, more versions are going to come
 - All features of CLI versions
 - Seperate database
 - hashed passwords
+- Activate alarm after too many wrong attempts
+- Delete/remove member
 - modern look
 
 # Future goals:
 - SMS system
-- burglar alarm after too many incorrect attempts
 - fingerprint sensor
-- An application to use smart lock through mobile
   
   
 This project is continuously evolving as I learn new concepts in python through CS50P and other resources. More exciting versions are coming soon!
