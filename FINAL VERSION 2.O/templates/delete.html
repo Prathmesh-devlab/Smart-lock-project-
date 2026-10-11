@@ -1,0 +1,21 @@
+{% extends "syntax.html" %}
+
+{% block body_class %}
+background
+{% endblock %}
+
+{% block body %}
+
+    {% if error %}
+       <h1 style="color: red; text-align: center;">{{display}}</h1>
+    {% else %}
+       <form action="/remove" method="post" style="text-align: center;">
+         <input type="text" required class="input" placeholder="Enter username" name="name">
+         <input type="submit" class="input" value="Delete">
+       </form>
+       <form action="/admin" method="post" style="text-align: center;">
+         <input type="submit" class="input" value="Cancel">
+       </form>
+    {% endif %}
+
+{% endblock %}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Lock System</title>
+        <style>
+            body {background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh;}
+            .background{background-image: url("static/BACKGROUND.png");}
+            .front{background-image: url('static/FRONT.png')}
+            .denied{background-image: url('static/DENIED.png')}
+            .unlock{background-image: url('static/UNLOCK.png')}
+            .input{width: 200px; padding: 14px 18px;
+                   background: rgba(225, 225, 225, 0.15);
+                   border: 1px solid rgba(225, 225, 225, 0.4);
+                   border-radius: 12px;
+                   color: white;
+                   font-size: 16px;
+                   backdrop-filter: blur(10px);
+                   outline: none;}
+            .input::placeholder{color: rgba(225, 225, 225, 0.7);}
+            .input:focus{border-color: rgba(225, 225, 225, 0.8);
+                         background: rgba(225, 225, 225, 0.2);}
+
+            @media(max-width: 600px){
+                .background,
+                .front,
+                .denied,
+                .unlock{position: relative !important;
+                        top: auto !important;
+                        left: auto !important;
+                        right: auto !important;
+                        bottom: auto !important;}
+                }
+                input{width: 85%;
+                      max-width: 300px;}
+        </style>
+    </head>
+    <body style="font-family: Copperplate Gothic Light;" class="{% block body_class %}{% endblock %}">
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>

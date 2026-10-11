@@ -1,0 +1,12 @@
+{% extends "syntax.html" %}
+
+{% block body_class %}
+background
+{% endblock %}
+
+{% block body %}
+<h1 style="text-align: center; color: green;">Successfully removed</h1>
+<form action="/admin" method="post" style="text-align: center;">
+    <input type="submit" class="input" value="Exit">
+</form>
+{% endblock %}
